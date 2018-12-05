@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+.dynamic-text{
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	color: #000;
+	word-break: break-word;
+	padding: 10px;
+  }
+  .dynamic-text:after{
+	content: '|';
+	font-weight: bold;
+	position: relative;
+	top: -2px;
+	opacity: 1;
+	animation-name: cursor;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  }
+  
+  #home-text {
+	text-align: center;
+	clear: both;
+	width: 45%;
+	height: 200px;
+	margin: 140px auto 20px;
+	font-size: 25px;
+	line-height: 1;
+  }
+
+  #wrapper{
+	  background-color: #000;
+  }
+  
+  h2, p{
+	  color: white;
+	}
+	
+	/* #text2 {
+		height: 200px;
+		width: 300px;
+		background-color: white;
+	
+	}
+   */

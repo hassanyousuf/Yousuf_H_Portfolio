@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hassan Yousuf</title>
+<!-- <link href="css/reset.css" rel="stylesheet" type="text/css"> -->
+<!-- <link rel="stylesheet" href="css/foundation.css"> -->
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+</head>
+
+
+<body>
+    <div class="row, fullwidth">
+        
+        <!-- nick names transitions -->
+        <div id="wrapper" class="bannerImg, columns large-12">
+            <div id="headerText" class="columns large-6">
+                <h2>Hassan <span id="text">Yousuf</span></h2>
+            <p id="output"></p>
+        </div>
+
+            <!-- test text from database -->
+            <div v-on:click="info" id="text2">
+                <p class=wtf>{{ mainmessage }}</p>
+            </div>
+           
+            <!-- background-image of me -->
+            <header><img src="images/bannerImg.jpg" alt="banner Image" height="50%" width="50%"></header>
+            
+        </div>
+        
+        
+</div>
+</body>
+<script src="js/main.js"></script>
+</html>
