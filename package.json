@@ -1,0 +1,19 @@
+{
+  "name": "hport",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "active"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassanyousuf/Yousuf_H_Portfolio.git"
+  },
+  "author": "Hassan Yousuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassanyousuf/Yousuf_H_Portfolio/issues"
+  },
+  "homepage": "https://github.com/hassanyousuf/Yousuf_H_Portfolio#readme"
+}
